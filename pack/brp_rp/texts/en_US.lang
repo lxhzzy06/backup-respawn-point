@@ -1,0 +1,12 @@
+pack.name=Backup Respawn Point - Resource Pack By lxhzzy
+pack.description=Adds backup respawn points. When the default respawn point fails, you can respawn at the backup location.
+
+script.set_point=Backup respawn point %s set successfully.
+script.full_points=All backup respawn points have been set.
+script.respawn=Respawned at backup respawn point %s.
+script.no_points=No available backup respawn points or all backup respawn points have failed.
+script.clear=All backup respawn points have been cleared.
+script.count=Number of respawn points set: %s.
+script.get_points_overload=[Overworld] Respawn Point %s: %s
+script.get_points_nether=[Nether] Respawn Point %s: %s
+script.get_points_the_end=[The End] Respawn Point %s: %s

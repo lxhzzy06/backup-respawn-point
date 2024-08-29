@@ -1,0 +1,12 @@
+pack.name=备用重生点-资源包 By B站吃毛不吐毛球
+pack.description=添加备用的重生点，当默认重生点失效时，可以重生到备用的位置
+
+script.set_point=备用重生点 %s 设置成功
+script.full_points=备用重生点已全部设置完毕
+script.respawn=已在备用重生点 %s 重生
+script.no_points=没有可用的备用重生点或备用重生点已全部失效
+script.clear=已清除所有备用重生点
+script.count=已设置重生点数量 %s
+script.get_points_overload=[主世界] %s 号重生点: %s
+script.get_points_nether=[下界] %s 号重生点: %s
+script.get_points_the_end=[末地] %s 号重生点: %s
