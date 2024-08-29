@@ -66,7 +66,9 @@ system.afterEvents.scriptEventReceive.subscribe(
 	({ sourceEntity: player, id, message }) => {
 		switch (id as ScriptEventIds) {
 			case ScriptEventIds.Clear:
+				const count = (player?.getDynamicProperty('count') as number | undefined) ?? 0;
 				player?.clearDynamicProperties();
+				player?.setDynamicProperty('count', count);
 				lang.script.clear.send(undefined, player as Player);
 				return;
 
