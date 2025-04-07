@@ -6,7 +6,7 @@ export default defineConfig({
 	format: 'esm',
 	target: 'es2020',
 	clean: false,
-	noExternal: ['@minecraft/math', 'wgpu-matrix', 'bedrock-vanilla-data-inline'],
+	noExternal: ['bedrock-vanilla-data-inline'],
 	outExtension() {
 		return { js: '.js' };
 	},

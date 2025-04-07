@@ -9,8 +9,8 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@minecraft/server": "^1.14.0-beta.1.21.20-stable",
-		"bedrock-vanilla-data-inline": "^1.21.30-preview.24",
+		"@minecraft/server": "1.15.0",
+		"bedrock-vanilla-data-inline": "^1.21.62",
 		"del": "^7.1.0"
 	},
 	"devDependencies": {
